@@ -27,11 +27,18 @@ h2 {
 }
 
 img {
+  margin-right: 0;
   display: flex;
   max-width: 8%;
 }
 
+h3 {
+  margin-bottom: 0;
+}
 
+h4 {
+  margin-top: 0;
+}
 
 ul {
   width: 100%;
@@ -39,14 +46,18 @@ ul {
 }
 
 li {
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  position: relative;
 }
 
 a {
-  margin-bottom: : 1em;
+  position: absolute;
+  right: 2em;
+  text-align: right;
   text-decoration: none;
   color: #fff;
   padding: .5em .75em;
@@ -54,8 +65,9 @@ a {
 }
 
 p {
-  max-width: 25%;
-  margin-left: 1em;
+  max-width: 35%;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 hgroup {
